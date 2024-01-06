@@ -4,10 +4,10 @@ body{font-family: 'Open Sans', sans-serif;}
 
 
 nav{
+    margin: 10px 160px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .port-title{color: var(--Dark-01, #181818);
@@ -37,3 +37,14 @@ padding: 18px 30px;
         text-decoration: none;
         color: #474747;
     }
+    .header{
+        background-color: #FFF8F3;
+    }
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
+}
